@@ -1,0 +1,14 @@
+<%- include("partials/header.ejs") %>
+
+<div class="news">
+<% articles.forEach(function(article, index){ %>
+   <a href="/article/<%-article.id%>" class="news_card">
+    <img src="<%- article.thumbnail_url %>" alt="<%- article.title.rendered %>">
+   <h2> <%- article.title.rendered %> </h2>
+   <p><%- article.excerpt.rendered %></p>
+    </a>
+<% }) %>
+</div>
+
+
+<%- include("partials/footer.ejs") %>
