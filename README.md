@@ -2,6 +2,9 @@
 
 Basic news website build with Node.js, Express & EJS – WP Rest API
 
+Website is live on [https://news-website-l09b.onrender.com/](https://news-website-l09b.onrender.com/)
+
+
 [![npm](https://img.shields.io/npm/v/newsapi.svg)](https://www.npmjs.com/package/newsapi)
 [![npm](https://img.shields.io/npm/dt/newsapi.svg)](https://www.npmjs.com/package/newsapi)
 [![Build Status](https://travis-ci.org/bzarras/newsapi.svg?branch=master)](https://travis-ci.org/bzarras/newsapi)
